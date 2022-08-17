@@ -1,2 +1,2 @@
 # Univercity
- https://alamin330./Univercity/
+ https://alamin330.github.io/Univercity/
