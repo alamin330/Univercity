@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course page</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- gooogle fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+     <!-- font awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!----- header ----->
+<header class="sub-header">
+    <nav>
+       <a href="index.html"><img src="image/logo.png"></a>
+
+       <div class="nav-link" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+       </div>
+       <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1> Courses</h1>
+  
+</header>  
+
+
+<!----- Course ----->
+
+<section class="Course">
+    <h1>Courses We Offer</h1>
+    <p>Ut erat magna ipsum nonumy ipsum gubergren diam gubergren, sit.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermadiate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolores sint provident doloremque veritatis dolor et debitis non magni fugit hic dolorem vero, similique placeat ut sed molestias labore eligendi.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolores sint provident doloremque veritatis dolor et debitis non magni fugit hic dolorem vero, similique placeat ut sed molestias labore eligendi.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolores sint provident doloremque veritatis dolor et debitis non magni fugit hic dolorem vero, similique placeat ut sed molestias labore eligendi.</p>
+        </div>
+    </div>
+</section>
+
+<!----- facilities ----->
+
+<section class="facilitias">
+   <h1>Our Facilities</h1>
+   <p>Donne a air au encore gentillesse chaque son vraiment visage.</p>
+
+   <div class="row">
+       <div class="facilities-col">
+          <img src="image/library.png">
+          <h3>World Class Library</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad maiores sed delectus consectetur dignissimos, reiciendis officia explicabo nobis optio architecto!</p>
+       </div>
+
+       <div class="facilities-col">
+        <img src="image/basketball.png">
+        <h3>Largest Play Ground</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad maiores sed delectus consectetur dignissimos, reiciendis officia explicabo nobis optio architecto!</p>
+     </div>
+    
+     <div class="facilities-col">
+        <img src="image/cafeteria.png">
+        <h3>Tasty and Healthy Food</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad maiores sed delectus consectetur dignissimos, reiciendis officia explicabo nobis optio architecto!</p>
+     </div>
+   </div>
+</section>
+
+
+
+
+
+
+<!----- footer ----->
+
+<section class="footer">
+    <h3>About Us</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut pariatur cupiditate quidem nam dignissimos <br> quam cumque eveniet nobis nisi quia quam cumque.</p>
+
+    <div class="icon">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+    <p class="copy">Made With <i class="fa-solid fa-heart"></i> by Md Alamin</p>
+</section>
+
+
+
+
+
+
+
+<!----- javascript ----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>

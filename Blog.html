@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog page</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- gooogle fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+     <!-- font awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!----- header ----->
+<header class="sub-header">
+    <nav>
+       <a href="index.html"><img src="image/logo.png"></a>
+
+       <div class="nav-link" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+       </div>
+       <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Certificate & Online Programs For 2022</h1>
+</header>  
+
+<!----- blog content ----->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="image/certificate.jpg">
+            <h2>Our Certificate & Online Programs For 2022</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit odio tempore consectetur, autem praesentium inventore asperiores culpa, dolore iure non quo ea magni expedita. Ducimus dolore ut sint dolores sapiente, officiis placeat mollitia ea deserunt voluptatibus fuga ipsa consectetur vitae distinctio quis ratione ullam asperiores rerum et iusto tempora assumenda?</p>
+            <br> <p>Was not reverie cheer and parasites nor youth carnal grief, sing glorious hellas oft rhyme the from tear. Only smile most he but long mirth unto, the deemed coffined nor on or childe, childe scape his a uses if a like, could to harold deem and woe yet which thee, peace steel apart sore heal. Seemed beyond this bidding agen are heralds lemans him him. Soul of suits longed aye prose sighed. Domestic time in been was vile his shrine pillared go, near flash disporting sins wandered few for to. Massy of control isle native to made calm he. That.</p>
+            <br> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quaerat rem placeat enim fuga nulla error doloremque doloribus facilis saepe nam nostrum asperiores inventore non, repudiandae nihil at omnis quia minima mollitia aliquam, impedit voluptas! Maxime ratione harum, modi officiis ad impedit blanditiis esse quidem exercitationem, ipsam eligendi cumque nihil nisi a quis nobis illum. Nisi quibusdam tempore quae repudiandae.</p>
+            <br> <p>Smile it waste loved waste will sacred the he, lay whilome care given delight at to, noontide domestic more was mine since though, take who sorrow he in but the third. One delphis are ere into of vile and to vaunted. Land and was for sorrow wrong seraphs which, he and change calm hall visit isle the clay for. Their save is land was to wassailers the domestic. Before for worse seraphs birth did waste harold old at, which they chill sacred passed him, and his wight whence a what.</p>
+        
+        
+        
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+
+                    <form class="comment-form" action="">
+                         <input type="text" placeholder="Enter Name">
+                         <input type="email" placeholder="Enter Email">
+                         <textarea rows="5" placeholder="Your Comment"></textarea>
+                         <button type="submit" class="hero-btn button">POST COMMENT</button>
+                    </form>
+                </div>
+        
+        
+        
+        
+        
+        
+        
+        </div>
+        <div class="blog-right">
+           <h3>Post Categories</h3>
+
+           <div>
+              <span>Busniess Anlytics</span>
+              <span>32</span>
+           </div>
+
+           <div>
+            <span>Data Science</span>
+            <span>28</span>
+         </div>
+
+         <div>
+            <span>Machine Learning</span>
+            <span>25</span>
+         </div>
+
+         <div>
+            <span>Computer Science</span>
+            <span>41</span>
+         </div>
+         <div>
+            <span>AutoCAD</span>
+            <span>41</span>
+         </div>
+
+         <div>
+            <span>Journalis</span>
+            <span>23</span>
+         </div>
+         <div>
+            <span>Commerce</span>
+            <span>18</span>
+         </div>
+     </div>
+  </div>
+</section>
+
+
+
+
+<!----- footer ----->
+
+<section class="footer">
+    <h3>About Us</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut pariatur cupiditate quidem nam dignissimos <br> quam cumque eveniet nobis nisi quia quam cumque.</p>
+
+    <div class="icon">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+    <p class="copy">Made With <i class="fa-solid fa-heart"></i> by Md Alamin</p>
+</section>
+
+
+
+
+
+
+
+<!----- javascript ----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
